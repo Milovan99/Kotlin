@@ -1,4 +1,8 @@
+import Tipovi_podataka.TypeInference
+
 fun main(){
-    var deklaracija = deklarisanjePromenjivih()
+    val deklaracija = deklarisanjePromenjivih()
     deklaracija.varIval(godine = 23)
+
+    TypeInference("Poruka").typeInference()
 }
